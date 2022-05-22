@@ -1,0 +1,129 @@
+.title {
+    padding: 0 !important;
+    margin: 0;
+    font-size: 2rem;
+    border-bottom: 2px solid black !important;
+    text-align: center;
+    
+  }
+
+.form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-base {
+    background-color: lightslategray;
+    border-radius: 5px;
+    border: 2px solid rgb(176, 176, 176);
+    box-shadow: 0px 0px 5px 5px rgb(162, 162, 162);
+    width: 400px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.addUser-button-container{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.addUser-button{
+    box-shadow: 0px 1px 0px 0px #c6c6c6;
+	background:linear-gradient(to bottom, #64c9ff 5%, #238aff 100%);
+	background-color:#6498ff;
+	border-radius:6px;
+	border:1px solid #2252ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #666eff;
+
+}
+.addUser-button:hover {
+	background:linear-gradient(to bottom, #238aff 5%, #64c9ff 100%);
+	background-color:#6498ff;
+}
+.addUser-button:active {
+	position:relative;
+	top:1px;
+}
+
+.form-subPart {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-subPart label {
+    font-weight: 550;
+}
+
+
+.form-subPart input {
+    border-radius: 8px;
+    border: 2px solid rgb(211, 211, 211);
+    height: 30px;
+}
+
+
+
+.button-submit {
+    cursor: pointer;
+    font-weight: 650;
+    width: 230px;
+    height: 30px;
+    background:linear-gradient(to bottom, #23ff35 5%, #6eff64 100%);
+    background-color: green;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+
+.button-submit:hover {
+    background:linear-gradient(to bottom, #6cff5f 5%, #37f626 100%);
+}
+
+.button-cancel {
+    cursor: pointer;
+    font-weight: 650;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background:linear-gradient(to bottom, #ff2323 5%, #ff6464 100%);
+    background-color: brown;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+
+.button-cancel:hover {
+    background:linear-gradient(to bottom, #ff5b5b 5%, #ff2222 100%);
+}
